@@ -11,7 +11,11 @@
   "content_scripts": [
     {
       "matches": ["https://mo5182.schule.hessen.de/*"],
-      "js": ["inject.js"]
+      "js": ["moodle.js"]
+    },
+    {
+      "matches": ["https://start.schulportal.hessen.de/*"],
+      "js": ["vplan.js"]
     }
   ]
 
