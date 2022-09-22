@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "BetterMoodle",
+  "version": "1.1",
+
+  "description": "Customizes mo5182.schule.hessen.de",
+
+  
+
+  "content_scripts": [
+    {
+      "matches": ["https://mo5182.schule.hessen.de/*"],
+      "js": ["inject.js"]
+    }
+  ]
+
+}
+
